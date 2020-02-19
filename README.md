@@ -4,14 +4,14 @@ This repository contains the jupyter notebook for the housing prices prediction 
 
 The notebook is divided into sections:
 1) Exploratory Data analysis
-2) Data preprocessing
-    Fill missing values
-    Remove outliers
-    Treating Skewness
-    Convert categorical features into dummy variables
+2) Data preprocessing:
+    a) Fill missing values
+    b) Remove outliers
+    c) Treating Skewness
+    d) Convert categorical features into dummy variables
 3) Modelling
-    Random Forest Model
-    Gradient Boosting
+    a) Random Forest Model
+    b) Gradient Boosting
     
  Since we have a mix of categorical and numerical variables, I have used ensemble methods - Random Forest and Gradient Boosting for training the data. These are generally known to perform better than other methods. On this dataset, Gradient Boosting does slightly better than Random Forest model.
  
